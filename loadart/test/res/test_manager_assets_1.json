@@ -1,0 +1,12 @@
+{
+    "artifacts" : [
+         { 
+            "name": "1024bytes",
+            "origin": "http",
+            "url": "https://httpbin.org/bytes/1024",
+            "destiny" : "1024bytes.bin",
+            "teardown": "clear_destiny"
+        }
+    ],
+    "datafile" : "datafile.pkl" 
+}
