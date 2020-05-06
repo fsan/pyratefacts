@@ -1,5 +1,5 @@
 # Pyratefacts
-[![Build Status](https://travis-ci.org/fsan/loadart.svg?branch=master)](https://travis-ci.org/fsan/loadart)
+[![Build Status](https://travis-ci.org/fsan/pyratefacts.svg?branch=master)](https://travis-ci.org/fsan/pyratefacts)
 
 Pyratefacts (read py-artifacts) is just a simple package that may load artifacts, verify hash, extract to certain folder then proceed to cleanup.
 
