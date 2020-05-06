@@ -1,8 +1,8 @@
 import pytest
 
 import os
-import loadart as L
-from loadart.manager import Manager
+import pyratefacts as L
+from pyratefacts.manager import Manager
 
 def test_manager_setup():
     m = Manager(os.path.join('test','res','test_manager_assets_1.json'))

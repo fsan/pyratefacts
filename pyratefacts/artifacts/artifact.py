@@ -32,6 +32,8 @@ class Artifact():
                 raise AttributeError("If hash_type is set, digest must be informed")
 
             self.hash_type = hash_type
+            if isinstance(digest, str):
+                digest = digest.lower()
             self.digest = digest
 
         self.teardown_op = teardown

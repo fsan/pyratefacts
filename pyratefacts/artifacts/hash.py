@@ -14,7 +14,7 @@ def hash_digest(filename, hash_algorithm):
                 break
             m.update(data)
     
-    return m.hexdigest()
+    return m.hexdigest().lower()
 
 def available_algorithms():
     return hashlib.algorithms_available

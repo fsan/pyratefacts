@@ -1,10 +1,12 @@
 {
     "artifacts" : [
          { 
-            "name": "1024bytes",
+            "name": "pudim",
             "origin": "http",
-            "url": "https://httpbin.org/bytes/1024",
-            "destiny" : "1024bytes.bin",
+            "url": "http://pudim.com.br/pudim.jpg",
+            "hash_type" : "sha256",
+            "digest" : "5B3BD68C4F0639446C6E6C2E2B0018BAB3D3FFE387081A6030C9EF505115B433",
+            "destiny" : "pudim.jpg",
             "teardown": "clear_destiny"
         }
     ],

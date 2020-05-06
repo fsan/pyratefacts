@@ -7,4 +7,4 @@ python:
   - "nightly"
 script:
   - pip install -r requirements.txt
-  - python -m pytest --cov=loadart
+  - python -m pytest --cov=pyratefacts
