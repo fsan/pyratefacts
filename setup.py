@@ -22,9 +22,6 @@ setup(
     name = 'loadart',
     version = '0.1.0',
     packages = packages,
-    data_files=[
-        (os.path.join('loadart', 'tests', 'res'), list(glob.glob(os.path.join('loadart','tests','res','/*.json')))),
-    ],
     description = 'A simple module for loading artifacts from http or local and managing them',
     keywords = ['artifact management'],
     install_requires=requirements,
