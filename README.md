@@ -1,4 +1,5 @@
 # LOADART
+[![Build Status](https://travis-ci.org/fsan/loadart.svg?branch=master)](https://travis-ci.org/fsan/loadart)
 
 It is just a simple package that may load artifacts, verify hash and extract to certain folder.
 Although very simple, this seems to me a very simple task I keep doing over and over again in my
